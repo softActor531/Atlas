@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should load table 1`] = `
+"<b-card-stub bodytag=\\"div\\" titletag=\\"h4\\" subtitletag=\\"h6\\" subtitletextvariant=\\"muted\\" headertag=\\"div\\" footertag=\\"div\\" tag=\\"div\\">
+  <!---->
+  <b-container-stub tag=\\"div\\">
+    <b-row-stub tag=\\"div\\">
+      <!---->
+      <b-col-stub sm=\\"5\\" md=\\"4\\" tag=\\"div\\" class=\\"my-1\\">
+        <b-form-group-stub label=\\"show\\" labelfor=\\"perPageSelect\\" labelsize=\\"md\\" labelcolssm=\\"8\\" labelcolsmd=\\"4\\" labelcolslg=\\"3\\" labelalignmd=\\"right\\" feedbackarialive=\\"assertive\\" class=\\"mb-0\\">
+          <b-form-select-stub id=\\"perPageSelect\\" size=\\"sm\\" options=\\"25,50,100\\" valuefield=\\"value\\" textfield=\\"text\\" htmlfield=\\"html\\" disabledfield=\\"disabled\\" labelfield=\\"label\\" optionsfield=\\"options\\" value=\\"25\\" selectsize=\\"0\\"></b-form-select-stub>
+          entries
+        </b-form-group-stub>
+      </b-col-stub>
+    </b-row-stub>
+    <b-row-stub tag=\\"div\\">
+      <b-table-stub items=\\"\\" value=\\"\\" small=\\"true\\" responsive=\\"true\\" stacked=\\"md\\" filterincludedfields=\\"\\" filterdebounce=\\"0\\" sortby=\\"\\" sortdirection=\\"asc\\" sortcompareoptions=\\"[object Object]\\" labelsortasc=\\"Click to sort Ascending\\" labelsortdesc=\\"Click to sort Descending\\" labelsortclear=\\"Click to clear sorting\\" sorticonleft=\\"true\\" perpage=\\"25\\" currentpage=\\"1\\" selectmode=\\"multi\\" selectedvariant=\\"active\\" showempty=\\"true\\" emptytext=\\"There are no records to show\\" emptyfilteredtext=\\"There are no records matching your request\\" apiurl=\\"\\" custom-prop=\\"any\\"></b-table-stub>
+    </b-row-stub>
+    <b-row-stub tag=\\"div\\">
+      <b-col-stub lg=\\"6\\" tag=\\"div\\" class=\\"my-1\\">
+        Showing 0 to
+        0 of 0 entries (filtered from
+        0 total entries)
+      </b-col-stub>
+      <b-col-stub lg=\\"6\\" tag=\\"div\\" class=\\"my-1\\">
+        <b-pagination-stub value=\\"1\\" limit=\\"5\\" align=\\"right\\" pills=\\"true\\" arialabel=\\"Pagination\\" labelfirstpage=\\"Go to first page\\" firsttext=\\"«\\" labelprevpage=\\"Go to previous page\\" prevtext=\\"‹\\" labelnextpage=\\"Go to next page\\" nexttext=\\"›\\" labellastpage=\\"Go to last page\\" lasttext=\\"»\\" labelpage=\\"Go to page\\" ellipsistext=\\"…\\" perpage=\\"25\\" totalrows=\\"0\\" class=\\"my-3 heavy-rain-gradient\\"></b-pagination-stub>
+      </b-col-stub>
+    </b-row-stub>
+  </b-container-stub>
+</b-card-stub>"
+`;

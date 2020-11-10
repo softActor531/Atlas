@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - eval $(aws ecr get-login --region us-east-2 --no-include-email | sed 's|https://||')
+      - REPOSITORY_URI=388578881869.dkr.ecr.us-east-2.amazonaws.com/atlas-rebuild-web
+  build:
+    commands:
+      - docker build -t $REPOSITORY_URI:testing .
+      - docker tag $REPOSITORY_URI:testing $REPOSITORY_URI:$CODEBUILD_BUILD_NUMBER
+  post_build:
+    commands:
+      - docker push $REPOSITORY_URI:testing
